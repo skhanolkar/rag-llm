@@ -1,0 +1,93 @@
+
+Only cpu 
+pip install llama-cpp-python
+
+
+cpu+gpu : 
+pip install llama-cpp-python
+CMAKE_ARGS="-DLLAMA_METAL=on" FORCE_CMAKE=1 pip install llama-cpp-python  --no-cache-dir
+
+
+https://colab.research.google.com/drive/19xBNmejiJUhWIy71bWFnlL1H-O-hjTbW?usp=sharing
+https://www.youtube.com/watch?v=cNMYeW2mpBs
+
+
+
+chainLit with llm
+https://github.com/sudarshan-koirala/langchain-falcon-chainlit
+https://www.youtube.com/watch?v=gnyUUY8X-G4&t=318s
+
+StreamLit 
+
+streamlit 
+http://localhost:8501/
+
+Tool in langchain
+
+https://www.youtube.com/watch?v=kZCEj8GOOnA
+
+from llama_index.embeddings import HuggingFaceEmbedding
+
+# loads BAAI/bge-small-en
+# embed_model = HuggingFaceEmbedding()
+
+export SENTENCE_TRANSFORMERS_HOME=/Users/rraisinghani/.cache/torch/sentence_transformers/BAAI_bge-large-en-v1.5
+
+export HF_SENTENCE_TRANSFORMER_LOCAL_DIR=/Users/rraisinghani/.cache/torch/sentence_transformers/BAAI_bge-large-en-v1.5
+export HF_SENTENCE_EMBEDDER_DEVICE=cpu
+export LLM_LOCAL_PATH=/Users/rraisinghani/Library/Caches/llama_index/models/mistral-7b-instruct-v0.1.Q4_K_M.gguf
+
+
+pip install llama-index
+pip install llama-hub
+
+
+# loads BAAI/bge-small-en-v1.5
+embed_model = HuggingFaceEmbedding(model_name="BAAI/bge-small-en-v1.5")
+
+HuggingFace hub : ~/.cache/huggingface/hub
+
+Mistral model :  /Users/rraisinghani/Library/Caches/llama_index/models/mistral-7b-instruct-v0.1.Q4_K_M.gguf
+https://gpt-index.readthedocs.io/en/latest/examples/vector_stores/ChromaIndexDemo.html
+
+
+
+pip install transformers
+execute huggingface-cli login and provide read token
+
+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
+
+llama2 token is placed here: 
+ /Users/rraisinghani/.cache/huggingface/token
+
+
+pip
+pip install -q transformers einops accelerate langchain bitsandbytes
+pip install pypdf
+pip install python-dotenv
+
+
+
+
+https://python.langchain.com/docs/integrations/llms/llamacpp
+
+For quantized models 
+1) CPU only:
+pip install llama-cpp-python
+
+Installation with OpenBLAS / cuBLAS / CLBlast
+CMAKE_ARGS="-DLLAMA_CUBLAS=on" FORCE_CMAKE=1 pip install llama-cpp-python
+
+For both cpu and gpu 
+CMAKE_ARGS="-DLLAMA_CUBLAS=on" FORCE_CMAKE=1 pip install --upgrade --force-reinstall llama-cpp-python --no-cache-dir
+
+
+https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF/blob/main/mistral-7b-instruct-v0.1.Q4_K_M.gguf
+
+https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF/resolve/main/mistral-7b-instruct-v0.1.Q4_K_M.gguf
+
+
+
+
+
+
