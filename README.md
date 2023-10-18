@@ -17,9 +17,9 @@ To run on EC2 :
 1. pip install -r requirements.txt 
 
 2.Run following commands from terminal <br>
-  export HF_SENTENCE_TRANSFORMER_LOCAL_DIR={directory location of embedding model}
-  export LLM_LOCAL_PATH={directory location of llm}
-  export HF_SENTENCE_EMBEDDER_DEVICE= cpu or gpu (gpu if your instance has gpu)
+  export HF_SENTENCE_TRANSFORMER_LOCAL_DIR={directory location of embedding model} <br>
+  export LLM_LOCAL_PATH={directory location of llm} <br>
+  export HF_SENTENCE_EMBEDDER_DEVICE= cpu or gpu (gpu if your instance has gpu) <br>
 
 3. Download Mistral from :
    https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF/resolve/main/mistral-7b-instruct-v0.1.Q4_K_M.gguf
