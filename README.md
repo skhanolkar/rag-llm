@@ -14,7 +14,7 @@ Data used :
 
 To run on EC2 :
 
-1. pip install -r requirements.txt 
+1.pip install -r requirements.txt 
 
 2.Run following commands from terminal <br>
   export HF_SENTENCE_TRANSFORMER_LOCAL_DIR={directory location of embedding model} <br>
