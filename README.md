@@ -21,7 +21,7 @@ To run on EC2 :
   export LLM_LOCAL_PATH={directory location of llm} <br>
   export HF_SENTENCE_EMBEDDER_DEVICE= cpu or gpu (gpu if your instance has gpu) <br>
 
-3. Download Mistral from :
+3.Download Mistral from :
    https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF/resolve/main/mistral-7b-instruct-v0.1.Q4_K_M.gguf
 
 4.Download BGE large english embedding model:
