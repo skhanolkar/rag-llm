@@ -16,7 +16,7 @@ To run on EC2 :
 
 1. pip install -r requirements.txt 
 
-2.Run following commands from terminal
+2.Run following commands from terminal <br>
   export HF_SENTENCE_TRANSFORMER_LOCAL_DIR={directory location of embedding model}
   export LLM_LOCAL_PATH={directory location of llm}
   export HF_SENTENCE_EMBEDDER_DEVICE= cpu or gpu (gpu if your instance has gpu)
